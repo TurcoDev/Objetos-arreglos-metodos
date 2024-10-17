@@ -6,7 +6,7 @@ const person1 = {
     address: {
         street: '50 main st',
         city: 'Boston'
-    }
+    },
 }
 
 const person2 = {
@@ -74,5 +74,11 @@ const miFuncionFlecha = dato => console.log(dato);
 
 miFuncionFlecha('hola flecha');
 
+
+function recibeFuncion(funcionIn) {
+  funcionIn('Un dato de texto');
+}
+
+recibeFuncion(miFuncion)
 
 
